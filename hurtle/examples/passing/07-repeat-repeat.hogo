@@ -1,0 +1,7 @@
+; Repeats can be nested in other repeats.
+repeat 5 [
+  repeat 3 [
+    forward 10
+  ] 
+  right 90
+]

@@ -1,0 +1,91 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.36.0.
+--
+-- see: https://github.com/sol/hpack
+
+name:           cswk-hurtle
+version:        0.1.0.0
+author:         Alex Dixon
+maintainer:     alexander.dixon@warwick.ac.uk
+copyright:      2024 Alex Dixon
+license:        AllRightsReserved
+license-file:   LICENSE
+build-type:     Simple
+
+library
+  exposed-modules:
+      Hurtle.Parser
+      Hurtle.Types
+      Hatch
+      Images
+      Layout
+      Transforms
+  other-modules:
+      Paths_cswk_hurtle
+  hs-source-dirs:
+      src
+      src/hatch
+  default-extensions:
+      LambdaCase
+  ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints -Wno-orphans -Wno-missing-export-lists
+  build-depends:
+      base >=4.7 && <5
+    , containers
+    , gloss
+    , gloss-juicy
+    , megaparsec
+    , parser-combinators
+    , random
+  default-language: GHC2021
+
+executable cswk-hurtle
+  main-is: Main.hs
+  other-modules:
+      Paths_cswk_hurtle
+  hs-source-dirs:
+      app
+  default-extensions:
+      LambdaCase
+  ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints -Wno-orphans -Wno-missing-export-lists -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      base >=4.7 && <5
+    , containers
+    , cswk-hurtle
+    , gloss
+    , gloss-juicy
+    , megaparsec
+    , parser-combinators
+    , random
+  default-language: GHC2021
+
+test-suite cswk-hurtle-test
+  type: exitcode-stdio-1.0
+  main-is: Spec.hs
+  other-modules:
+      Paths_cswk_hurtle
+  hs-source-dirs:
+      test
+  default-extensions:
+      LambdaCase
+  ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints -Wno-orphans -Wno-missing-export-lists -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      QuickCheck
+    , ansi-terminal
+    , base >=4.7 && <5
+    , bytestring
+    , containers
+    , cryptohash-md5
+    , cswk-hurtle
+    , directory
+    , filepath
+    , gloss
+    , gloss-juicy
+    , megaparsec
+    , parser-combinators
+    , random
+    , tasty
+    , tasty-hunit
+    , tasty-quickcheck
+    , tasty-reporter-muffled
+  default-language: GHC2021

@@ -1,0 +1,5 @@
+; This program prints a square by using the "repeat" command.
+repeat 4 [
+  forward 100
+  right 90
+]

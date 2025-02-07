@@ -1,0 +1,73 @@
+; This program is made up of all Hogo commands
+home
+clearscreen
+penup
+back 170
+left 90
+forward 150
+right 90
+pendown
+forward 200
+repeat 180 [
+  forward 1
+  left 1
+]
+forward 200
+repeat 180 [
+  forward 1
+  left 1
+]
+forward 300
+repeat 180 [
+  forward 3
+  right 1
+]
+left 90
+forward 30
+repeat 45 [
+  forward 1
+  right 2
+]
+forward 60
+repeat 45 [
+  forward 1
+  right 2
+]
+forward 150
+repeat 45 [
+  forward 1
+  right 2
+]
+forward 60
+repeat 45 [
+  forward 1
+  right 2
+]
+forward 150
+repeat 45 [
+  forward 1
+  right 2
+]
+forward 60
+repeat 45 [
+  forward 1
+  right 2
+]
+forward 30
+left 90
+forward 270
+repeat 180 [
+  forward 1
+  right 1
+]
+forward 30
+repeat 180 [
+  forward 1
+  left 1
+]
+forward 30
+repeat 180 [
+  forward 1
+  right 1
+]
+forward 100

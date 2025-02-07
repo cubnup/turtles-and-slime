@@ -1,0 +1,8 @@
+-- This program is fine but it is followed by garbage. 
+-- The parser should reject this as an incorrectly constructed program.
+
+forward 100
+right 20
+left 100
+repeat 5 [ forward 20 ]
+abcdefghijklmnopqrstuvwxyz

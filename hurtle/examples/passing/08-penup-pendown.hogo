@@ -1,0 +1,7 @@
+forward 100
+; We can raise the pen:
+penup
+forward 100
+; And lower it again!
+pendown
+forward 100

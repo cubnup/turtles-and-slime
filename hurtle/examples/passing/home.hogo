@@ -1,0 +1,24 @@
+; the "home" command sends the user back to the middle of the screen.
+
+forward 50
+home
+
+right 60
+forward 50
+home
+
+right 120
+forward 50
+home
+
+right 180
+forward 50
+home
+
+right 240
+forward 50
+home
+
+right 300
+forward 50
+home

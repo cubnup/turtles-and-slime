@@ -1,0 +1,9 @@
+; A simple program written using forward, back, left, and right.
+
+forward 100
+right 90
+forward 20
+right 90
+forward 100
+left 90
+back 50

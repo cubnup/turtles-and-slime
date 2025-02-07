@@ -1,0 +1,87 @@
+; initialize
+penup
+
+; draw the >
+;; go to top-left
+left 30
+forward 100
+right 180
+;; start drawing
+pendown
+forward 100
+right 60
+forward 100
+left 120
+forward 20
+left 60
+forward 100
+left 60
+forward 100
+left 60
+forward 20
+
+; go back home
+penup
+left 120
+forward 100
+
+; move over to the right
+left 60
+forward 40
+left 90
+
+; draw the lambda
+;; go to top-left
+left 30
+forward 100
+right 180
+;; start drawing
+pendown
+forward 100
+right 60
+forward 100
+left 120
+forward 20
+left 60
+
+forward 80
+right 120
+forward 80
+left 60
+forward 20
+left 120
+forward 200
+left 60
+forward 20
+
+penup
+left 120
+forward 100
+
+left 105
+forward 30
+
+pendown
+right 105
+forward 20
+left 60
+forward 60
+left 120
+forward 20
+left 60
+forward 60
+
+penup
+left 120
+forward 30
+
+pendown
+forward 20
+left 60
+forward 60
+left 120
+forward 20
+left 60
+forward 60
+penup
+forward 200

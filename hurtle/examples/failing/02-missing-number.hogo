@@ -1,0 +1,2 @@
+-- This fails because the number is missing on "forward".
+forward

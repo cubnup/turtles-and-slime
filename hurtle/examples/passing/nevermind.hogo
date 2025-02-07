@@ -1,0 +1,11 @@
+; the "clearscreen" command clears all lines and puts the turtle back to the origin. If rendered correctly we should see the turtle at the origin as if no commands have been used.
+
+forward 100
+right 33.333
+forward 10.5
+
+repeat 5 [
+forward 10
+]
+
+clearscreen
